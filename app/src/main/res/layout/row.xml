@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/ll_background"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/txt_name"
+        android:gravity="center_vertical"
+        android:text="hassan"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_family"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:text="rezai"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="run"
+        android:layout_marginStart="20dp"
+        android:id="@+id/btn_run"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="stop"
+        android:layout_marginStart="20dp"
+        android:id="@+id/btn_stop"/>
+
+</LinearLayout>
