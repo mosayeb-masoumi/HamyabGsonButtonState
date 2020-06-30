@@ -90,7 +90,6 @@ public class MainActivity extends AppCompatActivity implements ProjectItemIntera
 
             Cache.saveArray(MainActivity.this, "IDLIST_KEY", idList);
 
-
             int a = 5;
 ////////////////////////////////////////////////////////////
         } else if (state.equals("stop")) {
